@@ -7,7 +7,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
 
-//@WebFilter(urlPatterns = "/*", filterName = "FilterDemo2")
+@WebFilter(urlPatterns = "/*", filterName = "FilterDemo2")
 @Order(5)
 @Component
 public class FilterDemo2 implements Filter{
